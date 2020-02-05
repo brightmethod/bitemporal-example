@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitemporalExample", "BitemporalExample\BitemporalExample.csproj", "{694ABD10-68BF-4D22-9CB8-DEA010D2BC50}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BitemporalExample.DataModel", "BitemporalExample.DataModel\BitemporalExample.DataModel.csproj", "{26F69CFC-D1C2-4221-99FF-F55796B7B7B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1161E014-33CA-4865-A787-2AD516273843}"
+	ProjectSection(SolutionItems) = preProject
+		DatabaseSetup.sql = DatabaseSetup.sql
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{694ABD10-68BF-4D22-9CB8-DEA010D2BC50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694ABD10-68BF-4D22-9CB8-DEA010D2BC50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{694ABD10-68BF-4D22-9CB8-DEA010D2BC50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{694ABD10-68BF-4D22-9CB8-DEA010D2BC50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F69CFC-D1C2-4221-99FF-F55796B7B7B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F69CFC-D1C2-4221-99FF-F55796B7B7B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F69CFC-D1C2-4221-99FF-F55796B7B7B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F69CFC-D1C2-4221-99FF-F55796B7B7B9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE1B3065-CA57-48D1-9663-BA4F5F82C283}
+	EndGlobalSection
+EndGlobal
