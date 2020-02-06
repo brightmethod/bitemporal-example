@@ -2,6 +2,8 @@
 
 Payroll system use case
 
+Employee table is temporal, HourlyRate and WorkLog tables are bitemporal
+
 Run DatabaseSetup.sql to setup database and tables etc
 
 Update BitemporalExampleContext.cs file, line 27, to match your connection database string
