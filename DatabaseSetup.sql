@@ -100,3 +100,14 @@ INSERT INTO dbo.WorkLog ([EmployeeID],[WorkDate],[MinutesWorked]) VALUES (1,'1/3
 INSERT INTO dbo.WorkLog ([EmployeeID],[WorkDate],[MinutesWorked]) VALUES (2,'1/3/2019', 360)
 INSERT INTO dbo.WorkLog ([EmployeeID],[WorkDate],[MinutesWorked]) VALUES (3,'1/3/2019', 300)
 GO
+
+--SQL TO ALTER HISTORY TABLE
+--ALTER TABLE [dbo].[Employee] SET (SYSTEM_VERSIONING = OFF); 
+
+--UPDATE EmployeeHistory SET SysStart='2019-02-05 10:33:59'
+
+--ALTER TABLE [dbo].[Employee]  
+--SET  
+--( 
+-- SYSTEM_VERSIONING = ON (HISTORY_TABLE = [dbo].[EmployeeHistory]) 
+--); 
